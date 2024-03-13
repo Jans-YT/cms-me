@@ -2,7 +2,7 @@ import Logoh from '../asset/Group 2286.png';
 import ProfPic from '../asset/Cool robot-amico.png';
 function Sidebar() {
     return (
-        <div className="bg-gray-800 text-white h-full w-64 flex flex-col drawer items-center lg:drawer-open" >
+        <div className="bg-gray-800 text-white h-screen w-64 flex flex-col drawer items-center pos lg:drawer-open sm:overflow-hidden" >
             <div className='w-full bg-base-200 flex justify-center p-4'>
                 <img className='items-center w-14' src={Logoh} alt="" />
             </div>

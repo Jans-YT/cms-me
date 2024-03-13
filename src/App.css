@@ -1,4 +1,11 @@
+.body{
+  background-color: white;
+}
 
+.pos{
+  position: sticky;
+  top: 0px;
+}
 
 .App {
   text-align: center;

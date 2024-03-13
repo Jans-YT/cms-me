@@ -32,11 +32,11 @@ function Login() {
             <div className="h-full p-12">
                 {/* <!-- Left column container*/}
                 <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
-                    <div className="shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-4/12 xl:w-4/12">
+                    <div className="background-white shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-4/12 xl:w-4/12">
                         <form method='POST' onSubmit={sub}>
                             {/* <!--Sign in section--> */}
                             <div className="flex flex-row items-center justify-center lg:justify-center">
-                                <p className="mb-0 mr-4 text-lg">Sign in with</p>
+                                <p className="mb-0 mr-4 text-lg">Sign in</p>
                             </div>
 
                             {/* <!-- Separator between social media sign in and email/password sign in --> */}
